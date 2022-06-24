@@ -7,6 +7,9 @@ namespace PalindromeExercise
 {
     public class WordSmith
     {
+        public WordSmith()
+        {
+        }
         public bool IsAPalindrome(string str) 
         {
             if (str.Length > 0)
